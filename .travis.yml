@@ -2,7 +2,6 @@ language: node_js
 
 node_js:
   - 'node'
-  - 'lts/*'
 
 script:
   - node ./internals/scripts/generate-templates-for-linting
@@ -16,10 +15,13 @@ before_install:
 
 notifications:
   email:
-    on_failure: change
+    on_failure: error@stejsoftware.com
 
 after_success: 'npm run coveralls'
 
 cache:
   directories:
     - node_modules
+
+services:
+  - xvfb
