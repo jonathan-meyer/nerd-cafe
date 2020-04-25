@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+import 'bootstrap/dist/css/bootstrap.css';
+
 const GlobalStyle = createGlobalStyle`
   html,
   body {
