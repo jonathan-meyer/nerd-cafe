@@ -116,14 +116,18 @@ module.exports = require('./webpack.base.babel')({
     }),
 
     new WebpackPwaManifest({
-      name: 'React Boilerplate',
-      short_name: 'React BP',
-      description: 'My React Boilerplate-based project!',
+      name: 'Nerd Café',
+      short_name: 'nerd-cafe',
+      description: 'My Café for Nerds.',
       background_color: '#fafafa',
       theme_color: '#b1624d',
       inject: true,
       ios: true,
       icons: [
+        {
+          src: path.resolve('app/images/1f913.png'),
+          sizes: [72, 96, 128],
+        },
         {
           src: path.resolve('app/images/icon-512x512.png'),
           sizes: [72, 96, 128, 144, 192, 384, 512],
