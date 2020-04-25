@@ -7,13 +7,15 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
   <div
     class="card-header"
   >
-    Nerd.cafe
+    <span>
+      Nerd.cafe
+    </span>
   </div>
   <div
     class="card-body"
   >
     <div>
-      Foo
+      Comming Soon...
     </div>
   </div>
   <div

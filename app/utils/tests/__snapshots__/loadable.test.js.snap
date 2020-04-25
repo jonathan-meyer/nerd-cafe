@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadable should render and match the snapshot 1 1`] = `null`;
+
+exports[`loadable should render and match the snapshot 1 2`] = `
+<div>
+  Foo
+</div>
+`;
+
+exports[`loadable should render and match the snapshot 2 1`] = `
+<div>
+  Bar
+</div>
+`;
+
+exports[`loadable should render and match the snapshot 2 2`] = `
+<div>
+  Foo
+</div>
+`;
