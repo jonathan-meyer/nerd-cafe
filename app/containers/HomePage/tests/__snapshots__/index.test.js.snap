@@ -8,7 +8,7 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
     class="card-header"
   >
     <span>
-      Nerd.cafe
+      The Nerd Café
     </span>
   </div>
   <div
