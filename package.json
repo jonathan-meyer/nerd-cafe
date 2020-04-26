@@ -1,17 +1,22 @@
 {
-  "name": "react-boilerplate",
-  "version": "4.0.0",
-  "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
+  "name": "nerd-cafe",
+  "version": "0.1.0",
+  "description": "Personal Website of Jonathan Meyer",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "url": "git+https://github.com/jonathan-meyer/nerd-cafe.git"
   },
   "engines": {
     "npm": ">=5",
     "node": ">=10"
   },
-  "author": "Max Stoiber",
-  "license": "MIT",
+  "author": "Jonathan Meyer",
+  "authors": [
+    "Max Stoiber",
+    "Jonathan Meyer"
+  ],
+  "license": "UNLICENSED",
+  "main": "./server/index.js",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
     "preanalyze": "npm run analyze:clean",
@@ -168,5 +173,12 @@
     "webpack-hot-middleware": "2.24.3",
     "webpack-pwa-manifest": "^4.2.0",
     "whatwg-fetch": "3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathan-meyer/nerd-cafe/issues"
+  },
+  "homepage": "https://github.com/jonathan-meyer/nerd-cafe#readme",
+  "directories": {
+    "doc": "docs"
   }
 }
