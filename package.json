@@ -7,8 +7,7 @@
     "url": "git+https://github.com/jonathan-meyer/nerd-cafe.git"
   },
   "engines": {
-    "npm": ">=5",
-    "node": ">=10"
+    "node": "10.x"
   },
   "author": "Jonathan Meyer",
   "authors": [
